@@ -1,0 +1,53 @@
+PROBLEM STATEMENT
+
+Write a program to demonstrate tuple and related functions in Python.
+ALGORITHM:
+
+STEP 1 : Start the program.
+STEP 2 : Create a tuple with different elements.
+STEP 3 : Display the original tuple.
+STEP 4 : Access elements using indexing and slicing.
+STEP 5 : Find the total number of elements using len().
+STEP 6 : Use count() to find occurrences of an element.
+STEP 7 : Use index() to find the position of an element.
+STEP 8 : Display all results using the print() function.
+STEP 9 : Stop the program.
+t = (5, 10, 15, 20, 10, 25)
+
+print("\nOriginal Tuple:")
+print(t)
+
+print("\nIndexing:")
+print(t[1])
+print(t[-1])
+
+print("\nSlicing:")
+print(t[1:4])
+
+print("\nLength of Tuple:")
+print(len(t))
+
+print("\nCount of 10:")
+print(t.count(10))
+Original Tuple:
+(5, 10, 15, 20, 10, 25)
+
+Indexing:
+10
+25
+
+Slicing:
+(10, 15, 20)
+
+Length of Tuple:
+6
+
+Count of 10:
+2
+
+Index of 20:
+3
+
+=== Code Execution Successful ===
+print("\nIndex of 20:")
+print(t.index(20))
