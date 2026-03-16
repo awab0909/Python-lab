@@ -1,0 +1,48 @@
+PROBLEM STATEMENT
+
+Write a program to demonstrate tuple and related functions in Python.
+ALGORITHM:
+
+STEP 1 : Start the program.
+STEP 2 : Create a tuple with some elements.
+STEP 3 : Display the original tuple.
+STEP 4 : Access elements of the tuple using indexing.
+STEP 5 : Find the length of the tuple using the len() function.
+STEP 6 : Count the occurrence of an element using the count() function.
+STEP 7 : Find the index of an element using the index() function.
+STEP 8 : Print all the results using the print() function.
+STEP 9 : Stop the program.
+t = (10, 20, 30, 40, 20)
+
+print("\nOriginal Tuple:")
+print(t)
+
+print("\nAccessing Elements:")
+print(t[0])
+print(t[2])
+
+print("\nLength of Tuple:")
+print(len(t))
+
+print("\nCount Function:")
+print(t.count(20))
+
+print("\nIndex Function:")
+print(t.index(30))
+Original Tuple:
+(10, 20, 30, 40, 20)
+
+Accessing Elements:
+10
+30
+
+Length of Tuple:
+5
+
+Count Function:
+2
+
+Index Function:
+2
+
+=== Code Execution Successful ===
