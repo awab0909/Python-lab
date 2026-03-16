@@ -1,0 +1,57 @@
+PROBLEM STATEMENT
+
+Write a program to demonstrate list and related functions in Python.
+ALGORITHM:
+
+STEP 1 : Start the program.
+STEP 2 : Create a list with some elements.
+STEP 3 : Display the original list.
+STEP 4 : Add a new element to the list using the append() function.
+STEP 5 : Insert an element at a specific position using the insert() function.
+STEP 6 : Remove an element from the list using the remove() function.
+STEP 7 : Display the length of the list using the len() function.
+STEP 8 : Sort the elements of the list using the sort() function.
+STEP 9 : Print all results using the print() function.
+STEP 10 : Stop the program.
+lst = [10, 20, 30, 40]
+
+print("\nOriginal List:")
+print(lst)
+
+lst.append(50)
+print("\nAfter append:")
+print(lst)
+
+lst.insert(2, 25)
+print("\nAfter insert:")
+print(lst)
+
+lst.remove(30)
+print("\nAfter remove:")
+print(lst)
+
+print("\nLength of List:")
+print(len(lst))
+
+lst.sort()
+print("\nSorted List:")
+print(lst)
+Original List:
+[10, 20, 30, 40]
+
+After append:
+[10, 20, 30, 40, 50]
+
+After insert:
+[10, 20, 25, 30, 40, 50]
+
+After remove:
+[10, 20, 25, 40, 50]
+
+Length of List:
+5
+
+Sorted List:
+[10, 20, 25, 40, 50]
+
+=== Code Execution Successful ===
