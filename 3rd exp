@@ -1,0 +1,45 @@
+PROBLEM STATEMENT
+
+Write a program to implement various string operations in Python.
+ALGORITHM:
+
+STEP 1 : Start the program.
+STEP 2 : Read a string from the user.
+STEP 3 : Display the length of the string.
+STEP 4 : Convert the string to uppercase and lowercase.
+STEP 5 : Perform string concatenation with another string.
+STEP 6 : Access characters of the string using indexing.
+STEP 7 : Reverse the string using slicing.
+STEP 8 : Print all the results using the print() function.
+STEP 9 : Stop the program.
+s = input("Enter a string: ")
+s2 = " Python"
+
+print("\nString Operations:")
+print(len(s))
+print(s.upper())
+print(s.lower())
+print(s + s2)
+
+print("\nIndexing:")
+print(s[0])
+print(s[-1])
+Enter a string:Awab
+
+String Operations:
+4
+AWAB
+awab
+Awab Python
+
+Indexing:
+A
+b
+
+Reverse String:
+bawA
+
+=== Code Execution Successful ===
+
+print("\nReverse String:")
+print(s[::-1])
