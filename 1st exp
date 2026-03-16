@@ -1,0 +1,58 @@
+PROBLEM STATEMENT : Demonstrate various Data Types and Operators in Python.
+
+
+a = int(input("Enter the value for a: "))
+b = int(input("Enter the value for b: "))
+
+print("\nArithmetic Operators:")
+print(a + b)
+print(a - b)
+print(a * b)
+print(a / b)
+print(a % b)
+
+print("\nComparison Operators:")
+print(a > b)
+print(a < b)
+print(a == b)
+print(a != b)
+
+print("\nLogical Operator Demonstration:")
+print((a > 0 and b > 0))
+print((a > 0 or b > 0))
+print(not(a > b))
+
+print("\nAssignment Operator Demonstration:")
+c = a
+c += b
+print(c == a + b)
+Enter the value for a:78
+Enter the value for b:908
+
+Arithmetic Operators:
+986
+-830
+70824
+0.08590308370044053
+78
+
+Comparison Operators:
+False
+True
+False
+True
+
+Logical Operator Demonstration:
+True
+True
+True
+
+Assignment Operator Demonstration:
+True
+True
+
+=== Code Execution Successful ===
+
+d = b
+d -= a
+print(d == b - a)
